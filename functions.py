@@ -29,9 +29,52 @@ def fun(n):
 print(fun(5))
   """
 
-
+"""
 #table
 def table(n):
     for i in range(1, 21):
         print(n, "*", i, "=", n * i)
-table(19)
+table(19)"""
+
+
+
+
+
+"""
+def table(n):
+    for i in range(1,21):
+        print(n,"*",i,"=",n*i)
+table(6)"""
+
+
+
+#leetcode
+
+str="zaz"
+ans=0
+for i in range(len(str)-1):
+    temp=abs(ord(str[i])-ord(str[i+1]))
+    ans=ans+temp
+print(ans)
+
+
+
+
+
+
+lst=["--X","X++","X++","X++"]
+x=0
+for i in range(len(lst)):
+    temp=lst[i]
+    if temp=="--X" or temp=="X--":
+        x=x-1
+    else:
+        x=x+1
+print(x)
+        
+
+        #or
+        #leetcode
+
+
+
