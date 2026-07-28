@@ -41,7 +41,7 @@ for i in range(r):
 
 
 
-r=4
+"""r=4
 c=20
 for i in range(r):
     for j in range(c):
@@ -49,5 +49,18 @@ for i in range(r):
             print("*",end="")
         else:
             print(" ",end="")
-    print()
-        
+    print()"""
+
+
+
+
+
+r=6
+c=10
+for i in range(r):
+    for j in range (c):
+        if i==0 or  i==1 or  i==2 or  i==3 or  i==4 or  i==5 or j==5 or j==6 or j==7 or j==8 or j==9:
+                print("*",end="")
+        else:
+             print(" ",end="")
+    print()         
