@@ -66,7 +66,7 @@ for i in range(r):
     print()  """       
 
 
-
+"""
 r=16
 c=5
 c1=r-1
@@ -75,4 +75,10 @@ for i in range(r):
         print(" ",end="")
     for k in range(c):
         print("*",end="")
+    print()"""
+
+n=15
+for i in range(n):
+    for j in range(n-i):
+        print("-",end="")
     print()
