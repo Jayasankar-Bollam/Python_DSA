@@ -77,8 +77,18 @@ for i in range(r):
         print("*",end="")
     print()"""
 
-n=15
+"""n=15
 for i in range(n):
     for j in range(n-i):
         print("-",end="")
+    print()"""
+
+
+r=10
+for i in range(r):
+    for j in range(r-i):
+        print(" ",end="")
+    temp=i*2+1
+    for k in range(temp):
+        print("*",end="")
     print()
