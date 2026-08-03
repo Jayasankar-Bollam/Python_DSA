@@ -1,11 +1,11 @@
-"""li=[1,6,8,4,5,9]
+li=[1,6,8,4,5,9]
 ans=0
 for i in range(len(li)):
     #val=li[i]
     #if val>ans:
       #ans=val
     ans=max(li[i],ans)
-print(ans)"""
+print(ans)
 
 
 

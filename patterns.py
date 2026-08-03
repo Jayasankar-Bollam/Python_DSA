@@ -16,7 +16,8 @@ for i in range(r):
         print("*",end="")    
         if j!=c-1:
            print("-",end="")
-    print()"""
+    print()
+"""
 
 
 
@@ -25,8 +26,7 @@ for i in range(r):
 
 
 
-
-"""r=5
+r=5
 c=5
 for i in range(r):
     for j in range(c):
@@ -36,7 +36,7 @@ for i in range(r):
            print(" ",end="")
         if j!=c-1:
            print(" ",end="")
-    print()"""
+    print()
 
 
 
@@ -84,11 +84,23 @@ for i in range(n):
     print()"""
 
 
-r=10
+"""r=10
 for i in range(r):
     for j in range(r-i):
         print(" ",end="")
     temp=i*2+1
     for k in range(temp):
         print("*",end="")
-    print()
+    print()"""
+
+"""
+
+r=9
+n=r-1
+for i in range(r):
+    for j in range(i):
+        print(" ",end="")
+    temp=2*r-1-2*i
+    for i in range(temp):
+        print("*",end="")
+    print()"""
