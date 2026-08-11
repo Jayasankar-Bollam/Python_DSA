@@ -21,3 +21,14 @@ for i in range(n-1,-1,-1):
      arr[i]=rmax
      rmax=max(rmax,temp)
 print(arr)
+
+
+
+
+
+
+
+
+
+
+
