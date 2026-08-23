@@ -9,4 +9,4 @@ for r in range(len(li)):
         temp-=li[r]
         l+=1
     ans=max(ans,r-l+1)
-print(ans)
+print(ans) 
