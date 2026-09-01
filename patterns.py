@@ -93,7 +93,7 @@ for i in range(r):
         print("*",end="")
     print()"""
 
-"""
+
 
 r=9
 n=r-1
@@ -103,4 +103,4 @@ for i in range(r):
     temp=2*r-1-2*i
     for i in range(temp):
         print("*",end="")
-    print()"""
+    print()
