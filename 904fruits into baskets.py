@@ -17,3 +17,4 @@ for r in range(len(fruits)):
         l+=1
     ans=max(ans,r-l+1)
 print(ans) 
+
