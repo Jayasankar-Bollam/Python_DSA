@@ -18,3 +18,29 @@ for r in range(n):
     ans=max(ans,r-l+1)
     print(arr[l:r+1])
 print(ans)
+
+
+
+#atmost k 
+
+def atMostK(arr,k):
+    l=0
+    n=len(arr)
+    temp=0
+    ans=0
+    for r in range(n):
+        if arr[r]%2==1:
+            temp+=1
+
+        while temp>k:
+          if arr[l]%2==1:
+            temp-=1
+          l+=1
+        ans+=r-l+1
+print(ans)
+
+arr =[1,3,4,5,7]
+k=2
+print(atMostK(arr,k))
+
+
