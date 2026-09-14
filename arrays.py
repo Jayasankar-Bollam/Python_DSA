@@ -22,7 +22,7 @@ print(temp)"""
 
 
 
-li=["hello good a","bad","great work"]
+li=["hello good a ","bad","great work"]
 ans=0
 for j in range(len(li)):
     s=li[j]
