@@ -40,7 +40,7 @@ def atMostK(arr,k):
     print(ans)
 
 arr =[1,3,4,5,7]
-k=2
-print(atMostK(arr,k)) 
+k=3
+print(atMostK(arr,k))       
 
 
