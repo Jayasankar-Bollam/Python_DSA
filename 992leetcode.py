@@ -21,5 +21,5 @@ def atMostK(nums,k):
         ans=ans+r-l+1
 
     return ans
-print(atMostK(nums,k)-atMostK(nums,k-1)) 
+print(atMostK(nums,k)-atMostK(nums,k-1))
    
