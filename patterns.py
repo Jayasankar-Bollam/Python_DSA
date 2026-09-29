@@ -103,4 +103,4 @@ for i in range(r):
     temp=2*r-1-2*i
     for i in range(temp):
         print("*",end="")
-    print()
+    print() 
