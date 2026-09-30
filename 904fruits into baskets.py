@@ -16,5 +16,5 @@ for r in range(len(fruits)):
             dici.pop(lval)
         l+=1
     ans=max(ans,r-l+1)
-print(ans) 
+print(ans) ###
 
