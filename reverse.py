@@ -46,7 +46,7 @@ print(rev)
 """
 
 
-"""
+
 s="abhhba"
 n=len(s)//2
 mu=len(s)
@@ -59,7 +59,7 @@ for i in range(n):
 if valid:
         print('yes')
 else:
-        print("No")"""
+        print("No")
 
 
 #Optimized
