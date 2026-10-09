@@ -33,5 +33,5 @@ def atMostK(nums,k):
             l+=1
         ans+=r-l+1
         return ans
-    return atMostK(nums,goal)=atMostK(nums,goal-1)
+    return atMostK(nums,goal) = atMostK(nums,goal-1)
 
