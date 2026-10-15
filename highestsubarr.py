@@ -32,7 +32,7 @@ for r in range(n):
     temp+=li[r]
 
  
-    if (r-l==3):             #(r-l+1==4)
+    if (r-l==3):              #(r-l+1==4)
       temp-=li[l]
       l+=1
 
