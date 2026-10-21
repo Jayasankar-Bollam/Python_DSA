@@ -63,7 +63,7 @@ else:
 
 
 #Optimized
-"""s="abccba"
+s="abccba"
 n=len(s)/2
 mu=len(s)
 valid=True
@@ -76,7 +76,7 @@ for i in range(int(n)):
 if valid:
     print("yes")
 else:
-    print("No")"""
+    print("No")
 
 
 s="abccba"
