@@ -16,4 +16,4 @@ for i in range(int(n)):
 if valid:
     print("yes")
 else:
-    print("No") 
+    print("No")  
