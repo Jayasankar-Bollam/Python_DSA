@@ -5,7 +5,7 @@ for i in ip:
      ans+=i
   else:
     ans+="[.]"
-print(ans) 
+print(ans)
 
 
 

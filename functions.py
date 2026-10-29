@@ -62,7 +62,7 @@ print(ans)
 
 
 
-lst=["--X","X++","X++","X++"]
+lst=["--X","X--","X++","X++"]
 x=0
 for i in range(len(lst)):
     temp=lst[i]
