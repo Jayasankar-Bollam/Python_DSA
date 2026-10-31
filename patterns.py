@@ -101,6 +101,29 @@ for i in range(r):
 #     for j in range(i):
 #         print(" ",end="")
 #     temp=2*r-1-2*i
-#     for i in range(temp):
+#     for k in range(temp):
 #         print("*",end="")
 #     print() 
+
+
+
+r=3
+c=4
+for i in range(r):
+    for j in range(c):
+        print("*",end="")
+        if j!=c-1:
+            print("-",end="")
+    print()
+
+
+
+for i in range(r):
+    for j in range(c):
+        if i==0 or i==r-1 or j==0 or j==c-1:
+            print("*",end="")
+        else:
+            print(" ",end="")
+        if j!=c-1:
+            print(" ",end="")
+    print()
