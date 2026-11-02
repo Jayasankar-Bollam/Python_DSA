@@ -6,4 +6,4 @@ for i in range(n):
         if colors[i]!=colors[j]:
             temp=j-i
             ans=max(ans,temp)
-print(ans)
+print(ans) 
