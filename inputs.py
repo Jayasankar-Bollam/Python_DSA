@@ -34,7 +34,7 @@ print(li)
 
 
 
-#optimal way
+#optimal way d
 
 li=list(map(int,input().split()))
 print(li)

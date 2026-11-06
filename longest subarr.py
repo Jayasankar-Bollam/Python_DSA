@@ -20,7 +20,7 @@
 # print(ans)
 
 
-
+#
 #atmost k 
 
 def atMostK(arr,k):
@@ -41,6 +41,6 @@ def atMostK(arr,k):
 
 arr =[1,3,4,5,7]
 k=3
-print(atMostK(arr,k))       
+print(atMostK(arr,k))        
 
 
