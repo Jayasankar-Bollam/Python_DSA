@@ -15,4 +15,4 @@ for i in range(len(s)):
     elif (ch2 in rev and rev[ch2]!=ch1):
         iso=False
         break
-print(iso)    
+print(iso)   
