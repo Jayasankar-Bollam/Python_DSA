@@ -8,4 +8,4 @@ for i in range(len(cost)-1,-1,-1):
     else:
         ans+=cost[i]
         took+=1
-print(ans) 
+print(ans)  
