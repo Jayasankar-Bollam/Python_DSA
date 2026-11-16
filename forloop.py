@@ -40,3 +40,11 @@ for i in range(3):
     
 for val in num:
    print(val)"""
+
+li=[4,6,8,6,7,8,2]
+n=len(li)
+ans=0
+for i in range(n):
+    if li[i]==9:
+        ans=ans+1
+print(ans)

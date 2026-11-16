@@ -12,6 +12,5 @@ for r in range(n):
         if(nums[l]%2 ==1):
             temp-=1
         l+=1
-
     ans= max(ans,r-l+1)
-print(ans)
+print(ans) 
