@@ -8,7 +8,7 @@ for i in range(n):
             temp+=s[k]
         if len(temp)==3 and len(set(temp))==3:
                 ans+=1
-print(ans)
+print(ans) 
 
 
 
