@@ -37,7 +37,7 @@ for i in range(r-2,-1,-1):
 
 
 
-r=9
+r=8
 n=r-1
 
 for i in range(r-1,-1,-1):
