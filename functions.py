@@ -29,12 +29,12 @@ def fun(n):
 print(fun(5))
   """
 
-"""
+
 #table
 def table(n):
-    for i in range(1, 21):
-        print(n, "*", i, "=", n * i)
-table(19)"""
+  for i in range(1, 21):
+      print(n, "*", i, "=", n * i)
+table(19)
 
 
 

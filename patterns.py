@@ -20,42 +20,49 @@ for i in range(r):
 """
 
 
+# r=3
+# c=3
+# for i in range(r):
+#     for j in range(c):
+#        print("*",end="")
+#        if j!=c-1:
+#            print("-",end="")
+#     print()
 
 
 
 
 
-
-r=5
-c=5
-for i in range(r):
-    for j in range(c):
-        if i==0 or i==r-1 or j==0 or j==c-1:
-           print("*",end="")
-        else:
-           print(" ",end="")
-        if j!=c-1:
-           print(" ",end="")
-    print()
-
-
-
-
-"""r=4
-c=20
-for i in range(r):
-    for j in range(c):
-        if i==0 or i==r-1 or j==0 or j==c-1:
-            print("*",end="")
-        else:
-            print(" ",end="")
-    print()"""
+# r=5
+# c=5
+# for i in range(r):
+#     for j in range(c):
+#         if i==0 or i==r-1 or j==0 or j==c-1:
+#            print("*",end="")
+#         else:
+#            print(" ",end="")
+#         if j!=c-1:
+#            print(" ",end="")
+#     print()
 
 
 
 
+# """r=4
+# c=20
+# for i in range(r):
+#     for j in range(c):
+#         if i==0 or i==r-1 or j==0 or j==c-1:
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print()"""
 
-"""r=6
+
+
+
+
+r=6
 c=10
 for i in range(r):
     for j in range (c):
@@ -63,35 +70,35 @@ for i in range(r):
                 print("*",end="")
         else:
              print(" ",end="")
-    print()  """       
+    print()       
 
 
-"""
-r=16
-c=5
-c1=r-1
-for i in range(r):
-    for j in range(c1-i):
-        print(" ",end="")
-    for k in range(c):
-        print("*",end="")
-    print()"""
+# """
+# r=16
+# c=5
+# c1=r-1
+# for i in range(r):
+#     for j in range(c1-i):
+#         print(" ",end="")
+#     for k in range(c):
+#         print("*",end="")
+#     print()"""
 
-"""n=15
-for i in range(n):
-    for j in range(n-i):
-        print("-",end="")
-    print()"""
+# """n=15
+# for i in range(n):
+#     for j in range(n-i):
+#         print("-",end="")
+#     print()"""
 
 
-r=10
-for i in range(r):
-    for j in range(r-i):
-        print(" ",end="")
-    temp=i*2+1
-    for k in range(temp):
-        print("*",end="")
-    print()
+# r=10
+# for i in range(r,-1,-1):
+#     for j in range(r-i):
+#         print(" ",end="")
+#     temp=i*2+1
+#     for k in range(temp):
+#         print("*",end="")
+#     print()
 
 
 
@@ -107,23 +114,36 @@ for i in range(r):
 
 
 
-r=3
-c=4
-for i in range(r):
-    for j in range(c):
-        print("*",end="")
-        if j!=c-1:
-            print("-",end="")
-    print()
+# r=5
+# c=4
+# for i in range(r):
+#     for j in range(c):
+#         print("*",end="")
+#         if j!=c-1:
+#             print("-",end="")
+#     print()
 
 
 
-for i in range(r):
-    for j in range(c):
-        if i==0 or i==r-1 or j==0 or j==c-1:
-            print("*",end="")
-        else:
-            print(" ",end="")
-        if j!=c-1:
-            print(" ",end="")
+# for i in range(r):
+#     for j in range(c):
+#         if i==0 or i==r-1 or j==c-1:
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#         if j!=c-1:
+#             print(" ",end="")
+#     print()
+
+
+
+r=4
+for i in range(r-1,-1,-1):
+    for j in range(r-i-1):
+         print(" ",end="")
+    for j in range(i*2+1):
+          if j==0 or j==i*2 or i==r-1:
+               print("*",end="")
+          else:
+               print(" ",end="")
     print()
