@@ -32,5 +32,5 @@ for j in range(len(li)):
         if ch==" ":
             temp=temp+1
     ans=max(ans,temp)
-print(ans)
+print(ans) 
         
