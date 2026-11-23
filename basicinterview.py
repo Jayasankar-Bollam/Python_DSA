@@ -110,7 +110,17 @@ while temp>0:
     temp=temp//10
 print("palindrome" if num==rev else "not plaindrome")
 
+
+#table
 def table(n):
     for i in range(1,31):
         print(n,"*",i,"=",n*i)
 table(2)
+
+#duplicates
+arr=[1,3,4,5,6,7,8,9,10]
+result=[]
+for i in range(len(arr)):
+    if i not in result:
+        result.append(num)
+print(result)
