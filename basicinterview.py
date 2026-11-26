@@ -177,3 +177,38 @@ for num in range(2,100):
             break
     if prime:
             print(num,end=" ")
+
+
+#armstrong number
+num=153
+temp_num=num
+total=0
+digits=len(str(num))
+while temp>0:
+     digit=temp_num % 10
+     total+=digit**digits
+     temp_num=temp_num//10
+print("armstrong" if total==num else "not armstrong")
+
+
+#even arr 
+
+arr=[1,2,3,5,6,7,8,9,10]
+even=[]
+for i in (arr):
+    if i%2==0:
+          even.append(i)
+print(even)
+
+#strong number
+num=145
+temp=num
+total=0
+while temp>0:
+    digit=temp%10
+    fact=1
+    for i in range(1,digit+1):
+          fact*=i
+    total+=fact
+    temp=temp//10
+print("Strong number" if total==num else "not strong")
