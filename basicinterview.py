@@ -212,3 +212,12 @@ while temp>0:
     total+=fact
     temp=temp//10
 print("Strong number" if total==num else "not strong")
+
+#Fibbonacci
+
+n=10
+a,b=0,1
+for i in range(n):
+     print(a,end="")
+     a,b=b,a+b
+     
